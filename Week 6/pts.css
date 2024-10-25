@@ -1,0 +1,14 @@
+@import 
+"https://fonts.googleapis.com/css?family=Lato:300,400,900";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    color: #fcfcfc;
+    background-color: #355664;
+    width: 960;
+    margin: 0 auto;
+}
