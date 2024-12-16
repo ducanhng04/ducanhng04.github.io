@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Workout Plan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Push-Pull-Leg Workout Plan</h1>
+        <nav>
+            <a href="#overview">Overview</a>
+            <a href="#workouts">Workout Days</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="workout routine">
+            <h2>About</h2>
+            <p>
+                The Push-Pull-Legs (PPL) workout plan is a versatile and efficient training routine that divides the body into three main movement patterns: pushing, pulling, and leg exercises. 
+                This split allows for balanced muscle group training while providing ample recovery time between sessions. It is ideal for individuals looking to improve overall strength, muscle mass, and endurance. 
+                PPL is well-suited for both beginners and advanced lifters, offering flexibility to adjust the frequency and intensity based on fitness goals. 
+                Whether you're training for general fitness, bodybuilding, or strength, this structured plan promotes consistent progress and prevents overtraining.
+            </p>
+            <div class="image"> 
+                <img src="theme.jpg" alt="source: ATHELAN-X" width="800">
+            </div>
+            
+            <br>
+            <p>
+                Below is a sample training schedule with specific reps and sets for you to follow along, you can also adjust to suit your condition. 
+                Each exercise also has a small video to guide you through the movements, making it easier to access the exercises.
+            </p>
+           
+        </section>
+
+        <section id="workouts">
+            <h2>Workout Plan</h2>
+
+            <div class="workout-day" id="day1">
+                <h3>Day 1: Push day</h3>
+                <button onclick="markComplete('day1')">Mark as Complete</button>
+                <ul>
+                    <li>Barbell Bench Press / 3 sets / 6-8 reps</li>
+                    <div class="text-container">
+                        <span>Movement Tutorial</span>
+                        <video src="bbp.mp4" muted autoplay loop></video>
+                    </div>
+                    <li>Inclince Dumbell Bench Press / 3 sets / 8-10 reps</li>
+                    <div class="text-container">
+                        <span>Movement Tutorial</span>
+                        <video src="ibb.mp4" muted autoplay loop></video>
+                    </div>
+                    <li>Machine Chest Press / 3 sets / 10-12 reps</li>
+                    <div class="text-container">
+                        <span>Movement Tutorial</span>
+                        <video src="mcp.mp4" muted autoplay loop></video>
+                    </div>
+                    <li>Lateral Raises / 4 sets / 15 reps</li>
+                    <div class="text-container">
+                        <span>Movement Tutorial</span>
+                        <video src="lateral.mp4" muted autoplay loop></video>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="workout-day" id="day2">
+                <h3>Day 2: Pull day</h3>
+                <button onclick="markComplete('day2')">Mark as Complete</button>
+                <ul>
+                    <li>Pull Ups / 3 sets / 8-10 reps</li>
+                    <div class="text-container">
+                        <span>Movement Tutorial</span>
+                        <video src="pullup.mp4" muted autoplay loop></video>
+                    </div>
+                    <li>Iso Pulls / 3 sets / 6-8 reps</li>
+                    <div class="text-container">
+                        <span>Movement Tutorial</span>
+                        <video src="isopul.mp4" muted autoplay loop></video>
+                    </div>
+                    <li>Lat Pushdown / 4 sets / 10-12 reps</li>
+                    <div class="text-container">
+                        <span>Movement Tutorial</span>
+                        <video src="latpush.mp4" muted autoplay loop></video>
+                    </div>
+                    <li>Peacher Curl / 4 sets / 6-8 reps</li>
+                    <div class="text-container">
+                        <span>Movement Tutorial</span>
+                        <video src="peacher.mp4" muted autoplay loop></video>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="workout-day" id="day3">
+                <h3>Day 3: Leg Day</h3>
+                <button onclick="markComplete('day3')">Mark as Complete</button>
+                <ul>
+                    <li>Barbell Back Squat / 3 sets / 8-10 reps</li>
+                    <div class="text-container">
+                        <span>Movement Tutorial</span>
+                        <video src="squat.mp4" muted autoplay loop></video>
+                    </div>
+                    <li>Harmstring Curls / 4 sets / 10-12 reps</li>
+                    <div class="text-container">
+                        <span>Movement Tutorial</span>
+                        <video src="hamsc.mp4" muted autoplay loop></video>
+                    </div>
+                    <li>Hack Squats / 3 sets / 8-10 reps</li>
+                    <div class="text-container">
+                        <span>Movement Tutorial</span>
+                        <video src="hacks.mp4" muted autoplay loop></video>
+                    </div>
+                    <li>Calves Raises / 4 sets / 12-15 reps</li>
+                    <div class="text-container">
+                        <span>Movement Tutorial</span>
+                        <video src="calvs.mp4" muted autoplay loop></video>
+                    </div>
+                </ul>
+            </div>
+        </section>
+
+        <blockquote class="quote">"Working out is modern couture"</blockquote>
+
+        <section id="contact">
+            <h2>Contact Info</h2>
+            <p>If you have any questions or need guidance, feel free to email at <a href="22070891@vnu.edu.vn">22070891@vnu.edu.vn</a>.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 KIKI Fitness. All rights reserved.</p>
+    </footer>
+
+    <button id="back-to-top" onclick="scrollToTop()">↑</button>
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
